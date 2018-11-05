@@ -1,0 +1,61 @@
+.user{
+  max-width: 80px;
+}
+
+.banner-user{
+  max-height: 300px;
+  background-position: center;
+}
+.container-flats{
+  margin-left: 334px;
+  margin-top: 53px;
+  display: flex;
+  text-align: center;
+  color:$gray;
+  h3{
+    font-size:20px;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+.main-container-flats{
+  background-color: white;
+  display:flex;
+}
+.container-form{
+  padding: 0 15px;
+  border-radius:3px;
+  background-color: $light-gray;
+  display:flex;
+  margin: 30px 150px;
+  height: 257px;
+
+  h2{
+    color:$gray;
+    font-size: 20px;
+  }
+}
+
+
+.input-inline{
+  display: flex;
+  text-align:center;
+  width: 40%;
+}
+
+.btn-default{
+  background-color:#EE5F5B ;
+  border-color: #ec4844;
+  color:white;
+  width: 271px;
+  margin:16px 66px;
+  border-radius: 3px;
+  &:hover{
+    color:white;
+    background-color: #e9322d;
+    border-color: #dc1c17;
+  }
+}
+
+
