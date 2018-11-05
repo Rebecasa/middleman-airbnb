@@ -6,16 +6,16 @@
   <meta name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
-  <title>Le Wagon - Middleman - About</title>
-  <link href="stylesheets/application-00f489c1.css" rel="stylesheet" />
-  <script src="javascripts/application-93de88c9.js"></script>
-  <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+  <title></title>
+  <link href="../stylesheets/application-00f489c1.css" rel="stylesheet" />
+  <script src="../javascripts/application-93de88c9.js"></script>
+  <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
 </head>
 <body>
   <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" id="logo" alt="Logo" />
+    <img src="../images/logo-acc9c0ec.png" id="logo" alt="Logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -51,25 +51,44 @@
   </div>
 </div>
 
-  <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/Rebecasa" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Rebecasa" class="img-circle" alt="Rebecasa" />
-</a>          <h2>Rebeca Casa</h2>
-          <p>
-<a href="https://github.com/Rebecasa" target="_blank">              <i class="fab fa-github"></i> Rebecasa
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/eikcmd" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/eikcmd" class="img-circle" alt="Eikcmd" />
-</a>          <h2>Eike Feld</h2>
-          <p>
-<a href="https://github.com/eikcmd" target="_blank">              <i class="fab fa-github"></i> eikcmd
-</a>          </p>
-        </li>
-    </ul>
+  
+
+<div class="banner banner-user" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('https://kitt.lewagon.com/placeholder/cities/tokyo');">
+</div>
+
+<div class="main-container-flats">
+  <div class="container-flats ">
+    <div class="flat-data">
+      <img src="https://kitt.lewagon.com/placeholder/users/papillard" class="img-circle user" alt="Papillard" />
+      <p>Boris' home</p>
+    </div>
+    <div class="city-flat">
+      <h3>Small flat in Tokyo</h3>
+      <p>Tokyo, Japan</p>
+    </div>
+  </div>
+
+  <div class="container-form text-rigth">
+    <form>
+      <h2>Book this flat</h2>
+      <div class="input-inline">
+      <div class="form-group">
+        <input type="date" class="form-control" id="InputCheckin" placeholder="Checkin">
+      </div>
+      <div class="form-group">
+        <input type="date" class="form-control" id="InputCheckout" placeholder="Checkout">
+        </div>
+      </div>
+        <select class="form-control">
+          <option>1 Guest</option>
+          <option>2 Guests</option>
+          <option>3 Guests</option>
+          <option>4 Guests</option>
+          <option>5 Guests</option>
+        </select>
+
+      <button type="submit" class="btn btn-default">Book it</button>
+    </form>
   </div>
 </div>
 
